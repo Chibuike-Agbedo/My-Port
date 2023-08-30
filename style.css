@@ -1,0 +1,48 @@
+#logo{
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1rem 3rem;
+}
+img{
+    
+    border-radius: 50%;
+}
+body{
+    padding: 2rem;
+}
+.col{
+  text-align: center;
+}
+main{
+  background-color: purple;
+  padding-left: 1rem;
+}
+.bio{
+  background-color: rgb(199, 120, 199);
+  text-align: center;
+  font-family: "Roboto", cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+.col{
+  background-color: rgb(190, 106, 190);
+  margin-left: 1rem;
+}
+#beans{
+    font-family: "Lobster", cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+footer{
+    height: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    background-color:  purple;
+}
+.content li:hover{
+    background-color: rgb(65, 65, 177);
+    border-radius: 20px;
+    transition: .5s all;
+}
