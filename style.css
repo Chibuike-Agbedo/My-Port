@@ -20,15 +20,16 @@ main{
   padding-right: 1rem;
 }
 .bio{
-  background-color: rgb(199, 120, 199);
+  background-color: purple;
   text-align: center;
   font-family: "Roboto", cursive;
     font-weight: bold;
     font-size: 25px;
 }
 .col{
-  background-color: rgb(190, 106, 190);
+  background-color: purple;
   margin-left: 1rem;
+  color: white;
 }
 #beans{
     font-family: "Lobster", cursive;
@@ -43,10 +44,21 @@ footer{
     background-color:  purple;
 }
 .content li:hover{
-    background-color: rgb(65, 65, 177);
+    background-color: purple;
     border-radius: 20px;
     transition: .5s all;
 }
 .col{
   justify-content: center;
+}
+#project_row > .col > .card {
+  background-color: aqua;
+  border-radius: 8px;
+}
+.container{
+  height: 80vh;
+}
+.pad{
+  font-size: 2rem;
+  text-align: center;
 }
